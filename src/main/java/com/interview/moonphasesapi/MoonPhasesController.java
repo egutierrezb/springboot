@@ -126,7 +126,7 @@ public class MoonPhasesController {
 				throw new Exception("JSON object can not be POSTED due to an invalid key. Valid keys are: "
 						+ "\"newMoon\",\"waxingCrescent\",\"firstQuarter\",\"waxingGibbous\",\"fullMoon\",\"waningGibbous\",\"thirdQuarter\",\"waningCrescent\"");
 		}
-		List<String> validMonthsPhases = Arrays.asList("January","February","March","April", "June", "July", "August", "September", "October", "November", "December");
+		List<String> validMonthsPhases = Arrays.asList("January","February","March","April", "May", "June", "July", "August", "September", "October", "November", "December");
 		
 		for(String validMonthPhase: validMonthsPhases)
 		{
@@ -149,7 +149,7 @@ public class MoonPhasesController {
 		//Validation in terms of the size, should it contain the all moonphases?
 		/*if(mapPhases.size()< MAXIMUM_ENTRIES_MOONPHASES)
 		{
-			throw new Exception("JSON object can not be POSTED due to it doesn´t contain the ALL moon phases");
+			throw new Exception("JSON object can not be POSTED since it doesn´t contain the ALL moon phases");
 		}*/
 		
 	}
