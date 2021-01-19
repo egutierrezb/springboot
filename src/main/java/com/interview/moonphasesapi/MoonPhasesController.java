@@ -21,6 +21,7 @@ import io.swagger.annotations.ApiParam;
 
 @RestController
 @RequestMapping("/api")
+//Controller
 public class MoonPhasesController {
 	
 	public final static int MAXIMUM_ENTRIES_MOONPHASES = 8;
