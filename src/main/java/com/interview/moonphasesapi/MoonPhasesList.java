@@ -5,6 +5,7 @@ import java.util.Map;
 import org.springframework.stereotype.Component;
 
 @Component
+//Wrapper Class
 public class MoonPhasesList {
 	private Map<String, String> moonPhases;
 
